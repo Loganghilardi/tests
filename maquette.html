@@ -1,0 +1,250 @@
+<?php session_start();?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>maquette</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+	<div class="container-fluid">
+	<div class="nav navbar-inverse">
+		<ul class="nav navbar-nav">
+			<li><button type="button" class="btn btn-primary" data-toggle="modal" data-backdrop="static" data-target="#Exercices">
+			  Exercices
+			</button></li>
+						<li><button type="button" class="btn btn-primary" data-toggle="modal" data-backdrop="static" data-target="#Fonction">
+			  Fonction
+			</button></li>
+						<li><button type="button" class="btn btn-primary" data-toggle="modal" data-backdrop="static" data-target="#Motif">
+			  Motif
+			</button></li>
+			<li><button type="button" class="btn btn-primary" data-toggle="modal" data-backdrop="static" data-target="#RelèveDétachements">
+			  Relève/Détachements
+			</button></li>
+			<li><button type="button" class="btn btn-primary" data-toggle="modal" data-backdrop="static" data-target="#Editionenmasse">
+			  Edition en masse
+			</button></li>
+			<li> <div class="btn-group">
+							  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    Edition
+							  </button>  
+							  <div class="dropdown-menu right">
+					    		<ul>
+					    			<li><button type="button" class="btn btn-primary" data-toggle="modal" data-backdrop="static" data-target="#Sectionanalytiquemotif">Section Analytiques / Motif</button></li>
+					    			<li><button type="button" class="btn btn-primary" data-toggle="modal" data-backdrop="static" data-target="#Agents">Agents</button></li>
+					    			<li><button type="button" class="btn btn-primary" data-toggle="modal" data-backdrop="static" data-target="#Totaljournées">Total Journées</button></li>
+					    			<li><button type="button" class="btn btn-primary" data-toggle="modal" data-backdrop="static" data-target="#Totalheures">Total heures</button></li>
+					    			<li><button type="button" class="btn btn-primary" data-toggle="modal" data-backdrop="static" data-target="#listeagent"> Listes Agents</button></li>
+					    		</ul>
+					    	</div>
+					    </div>
+
+			</li>
+
+
+
+  </div>
+
+<div class="modal fade" id="Exercices" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="vertical-alignment-helper">
+        <div class="modal-dialog vertical-align-center">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span>
+
+                    </button>
+                     <h4 class="modal-title" id="myModalLabel">Années de références</h4>
+
+                </div>
+                <div class="modal-body">...</div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-primary">Sauvegarder</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="Fonction" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="vertical-alignment-helper">
+        <div class="modal-dialog vertical-align-center">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+
+                    </button>
+                     <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+
+                </div>
+                <div class="modal-body">...</div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="Motif" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="vertical-alignment-helper">
+        <div class="modal-dialog vertical-align-center">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+
+                    </button>
+                     <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+
+                </div>
+                <div class="modal-body">...</div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="RelèveDétachements" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="vertical-alignment-helper">
+        <div class="modal-dialog vertical-align-center">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span>
+
+                    </button>
+                     <h4 class="modal-title" id="myModalLabel">Relève et Détachements</h4>
+
+                </div>
+                <div class="modal-body">...</div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-primary">Sauvegarder</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="Editionenmasse" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="vertical-alignment-helper">
+        <div class="modal-dialog vertical-align-center">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span>
+
+                    </button>
+                     <h4 class="modal-title" id="myModalLabel">Edition en masse</h4>
+
+                </div>
+                <div class="modal-body">...</div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-primary">Sauvegarder</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="Sectionanalytiquemotif" tadindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="vertical-alignment-helper">
+		<div class="modal-dialog vertical-align-center">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
+					<h4 class="modal-tittle" id="myModalLabel">Section Analytiques / Motif</h4>
+				</div>
+				<div class="modal-body">...</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+					<button type="button" class="btn btn-primary">Sauvegarder</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="Agents" tadindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="vertical-alignment-helper">
+		<div class="modal-dialog vertical-align-center">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
+					<h4 class="modal-tittle" id="myModalLabel">Agents</h4>
+				</div>
+				<div class="modal-body">...</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+					<button type="button" class="btn btn-primary">Sauvegarder</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="Totaljournées" tadindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="vertical-alignment-helper">
+		<div class="modal-dialog vertical-align-center">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
+					<h4 class="modal-tittle" id="myModalLabel">Total Journées	</h4>
+				</div>
+				<div class="modal-body">...</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+					<button type="button" class="btn btn-primary">Sauvegarder</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="Totalheures" tadindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="vertical-alignment-helper">
+		<div class="modal-dialog vertical-align-center">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
+					<h4 class="modal-tittle" id="myModalLabel">Total Heures	</h4>
+				</div>
+				<div class="modal-body">...</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+					<button type="button" class="btn btn-primary">Sauvegarder</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="listeagent" tadindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="vertical-alignment-helper">
+		<div class="modal-dialog vertical-align-center">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fermer</span></button>
+					<h4 class="modal-tittle" id="myModalLabel">Listes Agents</h4>
+				</div>
+				<div class="modal-body">...</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+					<button type="button" class="btn btn-primary">Sauvegarder</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+</body>
+</html>
