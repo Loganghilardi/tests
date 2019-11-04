@@ -23,7 +23,60 @@
 		
 		<div class="row">
 			<div class="col-lg-2" id="bande"></div>
-			<div class="dd"></div>
+			<div class="col-lg-5">
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<th scope="col">Code</th>
+							<th scope="col">Libellé</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">A</th>
+							<td>Animateur</td>
+						</tr>
+						<tr>
+							<th scope="row">AF</th>
+							<td>Adjoint Financier</td>
+						</tr>
+						<tr>
+							<th scope="row">BB</th>
+							<td>Bibliothécaire Bénévole</td>
+						</tr>
+						<tr>
+							<th scope="row">D</th>
+							<td>Directeur</td>
+						</tr>
+						<tr>
+							<th scope="row">DA</th>
+							<td>Directeur Pédagogique Adjoint</td>
+						</tr>
+						<tr>
+							<th scope="row">F</th>
+							<td>Formation</td>
+						</tr>
+						<tr>
+							<th scope="row">OT</th>
+							<td>Autres</td>
+						</tr>
+						<tr>
+							<th scope="row">SA</th>
+							<td>Service Accueil</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+				<div class="col-lg-2" style="margin: 1vh;">
+
+					<a href="maquette.php"><button type="button" class="btn btn-primary " > Valider</button></a>
+					<a href="maquette.php"><button type="button" class="btn btn-primary">Annuler</button></a>
+			</div>
+
+
+
+
+			
 		</div>
 	</div>
 		

@@ -1,6 +1,7 @@
 body{
 	background-color: grey
 }
+/*
 table{
 	border: 2px solid;
 	text-align: center;
@@ -15,7 +16,7 @@ td{
 }
 th{
 	border: 2px solid;
-}
+} */
 #bande{
 	background-color: grey;
 	height: 90vh;
