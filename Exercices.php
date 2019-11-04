@@ -22,8 +22,8 @@
 		</div>
 	
 		<div class="row">
-			<div class="col-lg-2" id="bande"></div>
-			<div class="col-lg-5">
+			<div class="col-lg-2 hidden-sm hidden-xs hidden-md" id="bande"></div>
+			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
 				<table class="table table-hover">
 				<thead>
 					<tr>
@@ -116,12 +116,18 @@
 				</tbody>
 			</table>
 		</div>
-			<div class="col-lg-2" style="margin: 1vh;">
+		<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12" style="margin: 1vh;">
+				<div class="btn-group" role="group" aria-label="Exemple">
+					<button type="button" class="btn btn-primary">Ajouter une ligne</button>
+					<button type="button" class="btn btn-primary">Supprimer une ligne</button>
+				</div>
+		</div>
+			<div class="col-lg-2 col-md-3 col-sm-7 col-xs-12" style="margin-top: 80vh;">
 
 					<a href="maquette.php"><button type="button" class="btn btn-primary " > Valider</button></a>
 					<a href="maquette.php"><button type="button" class="btn btn-primary">Annuler</button></a>
 			</div>
-		</div>
+			
 
 		</div>
 

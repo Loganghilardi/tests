@@ -1,22 +1,7 @@
 body{
 	background-color: grey
 }
-/*
-table{
-	border: 2px solid;
-	text-align: center;
 
-
-}
-tr{
-	border: 2px solid;
-	}
-td{
-	border: 2px solid;
-}
-th{
-	border: 2px solid;
-} */
 #bande{
 	background-color: grey;
 	height: 90vh;
@@ -27,4 +12,23 @@ th{
 }
 .dd{
 	margin: 12vh;
+}
+.btn-primary{
+	background-color: #222222;
+	border: grey
+}
+.btn-primary:hover{
+	background-color: grey;
+}
+.btn-primary:active:{
+	background-color: grey
+}
+.btn-primary:focus{
+	background-color: black;
+}
+.btn-primary:active:hover{
+	background-color: grey
+}
+.btn-primary:active:focus{
+	background-color: grey
 }
