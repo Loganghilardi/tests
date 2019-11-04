@@ -10,6 +10,7 @@
   <link rel="stylesheet" type="text/css" href="css.css">
 </head>
 <body>
+	<!-- Menu -->
 	<div class="container-fluid">
 		<div class="navbar navbar-inverse">
 			<a class="navbar-brand" href="maquette.php">Accueil</a>
@@ -21,6 +22,13 @@
 				<li><a href="EditionEnMasse.php">Edition en masse</a></li>
 			</ul>	
 		</div>
+
+		
 	</div>
+
+
+
+
+
 </body>
 </html>

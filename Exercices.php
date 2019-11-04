@@ -20,9 +20,85 @@
 				<li><a href="EditionEnMasse.php">Edition en masse</a></li>
 			</ul>
 		</div>
-	</div>
-		
 	
+		<div class="row">
+			<table class="col-lg-2">
+				<thead>
+					<tr>
+						<th>Année</th>
+						<th>Fermée</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>2000</td>
+					</tr>
+					<tr>
+						<td>2001</td>
+					</tr>
+					<tr>
+						<td>2002</td>
+					</tr>
+					<tr>
+						<td>2003</td>
+					</tr>
+					<tr>
+						<td>2004</td>
+					</tr>
+					<tr>
+						<td>2005</td>
+					</tr>
+					<tr>
+						<td>2006</td>
+					</tr>
+					<tr>
+						<td>2007</td>
+					</tr>
+					<tr>
+						<td>2008</td>
+					</tr>
+					<tr>
+						<td>2009</td>
+					</tr>
+					<tr>
+						<td>2010</td>
+					</tr>
+					<tr>
+						<td>2011</td>
+					</tr>
+					<tr>
+						<td>2012</td>
+					</tr>
+					<tr>
+						<td>2013</td>
+					</tr>
+					<tr>
+						<td>2014</td>
+					</tr>
+					<tr>
+						<td>2015</td>
+					</tr>
+					<tr>
+						<td>2016</td>
+					</tr>
+					<tr>
+						<td>2017</td>
+					</tr>
+					<tr>
+						<td>2018</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>2019</td>
+					</tr>
+					
+				</tbody>
+			</table>
+
+
+
+		</div>
+	</div>
 
 </body>
 </html>
