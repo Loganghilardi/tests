@@ -19,7 +19,7 @@
 				<li><a href="Motif.php">Motif</a></li>
 				<li><a href="Relève&Détachement.php">Relève/Détachement</a></li>
 				<li><a href="EditionEnMasse.php">Edition en masse</a></li>
-			</ul>	<li><a href="EditionEnMasse.php">Edition en masse</a></li>	<li><a href="EditionEnMasse.php">Edition en masse</a></li>	<li><a href="EditionEnMasse.php">Edition en masse</a></li>	<li><a href="EditionEnMasse.php">Edition en masse</a></li>	<li><a href="EditionEnMasse.php">Edition en masse</a></li>	<li><a href="EditionEnMasse.php">Edition en masse</a></li>	<li><a href="EditionEnMasse.php">Edition en masse</a></li>	<li><a href="EditionEnMasse.php">Edition en masse</a></li>	<li><a href="EditionEnMasse.php">Edition en masse</a></li>
+			</ul>	
 		</div>
 	</div>
 </body>
