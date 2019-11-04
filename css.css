@@ -5,6 +5,7 @@ table{
 	border: 2px solid;
 	text-align: center;
 
+
 }
 tr{
 	border: 2px solid;
@@ -22,4 +23,7 @@ th{
 }
 .row{
 	background-color: white;
+}
+.dd{
+	margin: 12vh;
 }

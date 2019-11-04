@@ -23,7 +23,7 @@
 	
 		<div class="row">
 			<div class="col-lg-2" id="bande"></div>
-			<div class="col-lg-10">
+			<div class="dd">
 			<table class="col-lg-offset-3 col-lg-2">
 				<thead>
 					<tr>
@@ -117,8 +117,8 @@
 			</table>
 			<div class="col-lg-2">
 
-					<button type="button" class="btn btn-primary ">Valider</button>
-					<button type="button" class="btn btn-primary">Annuler</button>
+					<a href="maquette.php"><button type="button" class="btn btn-primary " > Valider</button></a>
+					<a href="maquette.php"><button type="button" class="btn btn-primary">Annuler</button></a>
 			</div>
 		</div>
 
