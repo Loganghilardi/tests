@@ -22,7 +22,9 @@
 		</div>
 	
 		<div class="row">
-			<table class="col-lg-2">
+			<div class="col-lg-2" id="bande"></div>
+			<div class="col-lg-10">
+			<table class="col-lg-offset-3 col-lg-2">
 				<thead>
 					<tr>
 						<th>Année</th>
@@ -32,70 +34,93 @@
 				<tbody>
 					<tr>
 						<td>2000</td>
+						<td><input type="checkbox" name="choix"checked></td>
 					</tr>
 					<tr>
 						<td>2001</td>
+						<td><input type="checkbox" name="choix"checked></td>
 					</tr>
 					<tr>
 						<td>2002</td>
+						<td><input type="checkbox" name="choix"checked></td>
 					</tr>
 					<tr>
 						<td>2003</td>
+						<td><input type="checkbox" name="choix"checked></td>
 					</tr>
 					<tr>
 						<td>2004</td>
+						<td><input type="checkbox" name="choix" checked></td>
 					</tr>
 					<tr>
 						<td>2005</td>
+						<td><input type="checkbox" name="choix"checked></td>
 					</tr>
 					<tr>
 						<td>2006</td>
+						<td><input type="checkbox" name="choix"checked></td>
 					</tr>
 					<tr>
 						<td>2007</td>
+						<td><input type="checkbox" name="choix"checked></td>
 					</tr>
 					<tr>
 						<td>2008</td>
+						<td><input type="checkbox" name="choix"checked></td>
 					</tr>
 					<tr>
 						<td>2009</td>
+						<td><input type="checkbox" name="choix"checked></td>
 					</tr>
 					<tr>
 						<td>2010</td>
+						<td><input type="checkbox" name="choix"checked></td>
 					</tr>
 					<tr>
 						<td>2011</td>
+						<td><input type="checkbox" name="choix"checked></td>
 					</tr>
 					<tr>
 						<td>2012</td>
+						<td><input type="checkbox" name="choix"checked></td>
 					</tr>
 					<tr>
 						<td>2013</td>
+						<td><input type="checkbox" name="choix"checked></td>
 					</tr>
 					<tr>
 						<td>2014</td>
+						<td><input type="checkbox" name="choix"checked></td>
 					</tr>
 					<tr>
 						<td>2015</td>
+						<td><input type="checkbox" name="choix"checked></td>
 					</tr>
 					<tr>
 						<td>2016</td>
+						<td><input type="checkbox" name="choix"checked></td>
 					</tr>
 					<tr>
 						<td>2017</td>
+						<td><input type="checkbox" name="choix"checked></td>
 					</tr>
 					<tr>
 						<td>2018</td>
-						<td></td>
+						<td><input type="checkbox" name="choix"></td>
 					</tr>
 					<tr>
 						<td>2019</td>
+						<td><input type="checkbox" name="choix"></td>
 					</tr>
 					
 				</tbody>
 			</table>
+			<div class="col-lg-2">
 
-
+					<button type="button" class="btn btn-primary ">Valider</button>
+					<button type="button" class="btn btn-primary">Annuler</button>
+			</div>
+		</div>
 
 		</div>
 	</div>

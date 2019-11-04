@@ -1,13 +1,25 @@
+body{
+	background-color: grey
+}
 table{
-	border: 5px solid;
+	border: 2px solid;
 	text-align: center;
+
 }
 tr{
-	border: 5px solid;
+	border: 2px solid;
 	}
 td{
-	border: 5px solid;
+	border: 2px solid;
 }
 th{
-	border: 5px solid;
+	border: 2px solid;
+}
+#bande{
+	background-color: grey;
+	height: 90vh;
+	
+}
+.row{
+	background-color: white;
 }
