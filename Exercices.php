@@ -24,14 +24,14 @@
 		<div class="row">
 			<div class="col-lg-2 hidden-sm hidden-xs hidden-md" id="bande"></div>
 			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
-				<table class="table table-hover">
+				<table class="table table-hover" >
 				<thead>
 					<tr>
 						<th>Année</th>
 						<th>Fermée</th>
 					</tr>
 				</thead>
-				<tbody>
+				<tbody >
 					<tr>
 						<td>2000</td>
 						<td><input type="checkbox" name="choix"checked></td>
