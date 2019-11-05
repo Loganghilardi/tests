@@ -22,9 +22,7 @@
 		</div>
 		<div class="row">
 			<div class="col-lg-2 hidden-sm hidden-xs hidden-md" id="bande"></div>
-			<div class="dd"></div>
-		</div>
-	</div>
+			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
 		
 	
 

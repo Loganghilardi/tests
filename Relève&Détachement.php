@@ -20,13 +20,72 @@
 				<li><a href="EditionEnMasse.php">Edition en masse</a></li>
 			</ul>
 		</div>
+	
 		<div class="row">
 			<div class="col-lg-2 hidden-sm hidden-xs hidden-md" id="bande"></div>
-			<div class="dd"></div>
-		</div>
-	</div>
-		
-	
+			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
 
+
+
+
+
+<table class="table table-responsive table-hover">
+    <thead>
+        <tr><th>Code</th><th>Libellé</th><th>Direction</th><th>Secteur</th></tr>
+    </thead>
+    <tbody>
+        <tr class="clickable" data-toggle="collapse" data-target="#group-of-rows-1" aria-expanded="false" aria-controls="group-of-rows-1">
+            <td>60ANNIVER</td>
+            <td>60ème anniversaire du CRE</td>
+          	<td>DG</td>  
+            <td>SECRELU</td>
+        </tr>
+    </tbody>
+
+    <tbody id="group-of-rows-1" class="collapse" style="border: 2px solid black">
+        <tr>
+            <td></td>
+            <th>Code</th>
+          	<th>Nom</th>  
+            <th>Groupe</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Lghilardi</td>
+          	<td>Logan Ghilardi</td>  
+            <td>Informatique</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>PAUL</td>
+          	<td>Muriel PAUL</td>  
+            <td>Controle de Gestion</td>
+        </tr>
+    </tbody>
+
+
+    <tbody>
+        <tr class="clickable" data-toggle="collapse" data-target="#group-of-rows-2" aria-expanded="false" aria-controls="group-of-rows-2">
+            <td><i class="fa fa-plus" aria-hidden="true"></i></td>
+            <td>data</td>
+          	<td>data</td>  
+            <td>data</td>
+        </tr>
+    </tbody>
+    <tbody id="group-of-rows-2" class="collapse">
+        <tr>
+            <td>- child row</td>
+            <td>data 2</td>
+          	<td>data 2</td>  
+            <td>data 2</td>
+        </tr>
+        <tr>
+            <td>- child row</td>
+            <td>data 2</td>
+          	<td>data 2</td>  
+            <td>data 2</td>
+        </tr>
+    </tbody>
+</table>
 </body>
 </html>
