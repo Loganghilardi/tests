@@ -44,7 +44,7 @@
         </tr>
     </tbody>
 
-    <tbody id="group-of-rows-1" class="collapse" style="border: 2px solid black">
+    <tbody id="group-of-rows-1" class="collapse" style="border: ">
         <tr>
             <td></td>
             <th>Code</th>
