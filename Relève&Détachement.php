@@ -21,7 +21,7 @@
 			</ul>
 		</div>
 		<div class="row">
-			<div class="col-lg-2" id="bande"></div>
+			<div class="col-lg-2 hidden-sm hidden-xs hidden-md" id="bande"></div>
 			<div class="dd"></div>
 		</div>
 	</div>
